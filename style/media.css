@@ -1,0 +1,38 @@
+@media(max-width:930px) {
+    .button-nav-container a {
+        font-size: 12px;
+    }
+    .sociais-nav a{
+        font-size: 20px;
+    }
+}
+@media(max-width: 730px){
+    .button-nav-container{
+        display: none;
+    }
+    .sociais-nav .contact-icon-nav{
+        display: none;
+    }
+    .logo-nav img{
+        width: 80%;
+    }
+    .container-nav{
+        grid-template-columns: 30% 60% 10%;
+    }
+    .hamburger {
+        display: flex;
+    }
+
+    .menu-mobile {
+        .button-menu {
+            .button {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+@media(max-width:350px){
+    .logo-nav img{
+        width: 100%;
+    }
+}
