@@ -17,6 +17,7 @@ nav{
     border-bottom: 1px solid var(--grey);
     background: var(--white);
     box-shadow: 0 1px 5px var(--black);
+    top: 0px;
     
 }
 .container-nav{
