@@ -14,7 +14,7 @@
 
     .title-inicio {
         align-items: center;
-        margin-top: 40%;
+        margin-top: 30%;
     }
 
     .video-inicio {
@@ -49,10 +49,10 @@
 }
 @media(max-width:650px){
     .title-inicio{
-        margin-top: 50%;
+        margin-top: 40%;
     }
     .title-inicio h1{
-        font-size: 25px;
+        font-size: 30px;
     }
     .title-inicio p {
         font-size: 10px;
