@@ -23,9 +23,7 @@
 }
 
 @media(max-width: 730px) {
-    nav{
-        height: 13%;
-    }
+    
     .button-nav-container {
         display: none;
     }
