@@ -18,18 +18,19 @@ nav{
     background: var(--white);
     box-shadow: 0 1px 5px var(--black);
     top: 0px;
-    
+    height: 15%;
 }
 .container-nav{
     display: grid;
     grid-template-columns: 20% 70% 10%;
+    align-items: center;
 }
 .logo-nav{
     display: flex;
     justify-content: center;
 }
 .logo-nav img{
-    width: 70%;
+    width: 150px;
 }
 .button-nav{
     display: flex;
