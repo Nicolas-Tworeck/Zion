@@ -4,7 +4,7 @@
 }
 .inicio{
     padding: 5px;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     background-image: url(../img/bunner.svg);
