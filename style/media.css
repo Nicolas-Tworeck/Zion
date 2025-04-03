@@ -52,10 +52,10 @@
 }
 @media(max-width:650px){
     .title-inicio{
-        margin-top: 40%;
+        margin-top: 30%;
     }
     .title-inicio h1{
-        font-size: 33px;
+        font-size: 30px;
     }
     .title-inicio p {
         font-size: 10px;
