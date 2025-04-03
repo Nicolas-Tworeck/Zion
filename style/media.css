@@ -23,6 +23,9 @@
 }
 
 @media(max-width: 730px) {
+    nav{
+        height: 13%;
+    }
     .button-nav-container {
         display: none;
     }
@@ -52,7 +55,7 @@
         margin-top: 40%;
     }
     .title-inicio h1{
-        font-size: 30px;
+        font-size: 33px;
     }
     .title-inicio p {
         font-size: 10px;
