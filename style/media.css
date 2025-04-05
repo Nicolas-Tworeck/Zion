@@ -20,6 +20,21 @@
     .video-inicio {
         margin-top: 5%;
     }
+    .zion-pq{
+        height: 550px;
+    }
+    .zion-pq-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 12%;
+    }
+    .title-pq{
+        width: 90%;
+    }
+    .check-pq{
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
 }
 
 @media(max-width: 730px) {
@@ -64,5 +79,15 @@
     }
     .chamada-button-inicio a{
         font-size: 10px;
+    }
+    .zion-pq{
+        height: 700px;
+    }
+    .title-pq{
+        width: 70%;
+        text-align: center;
+    }
+    .check-pq{
+        width: 95%;
     }
 }
