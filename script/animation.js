@@ -30,3 +30,7 @@ function animationSequence(){
 }
 
 window.onload = animationSequence;
+
+
+
+
