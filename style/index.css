@@ -119,6 +119,7 @@
     width: 70%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .title-pq h2 {
@@ -133,6 +134,8 @@
 
 .title-pq p {
     font-weight: bold;
+    text-align: justify;
+    width: 80%;
 }
 
 .container-check {

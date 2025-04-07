@@ -93,6 +93,15 @@
         width: 70%;
         text-align: center;
     }
+    .title-pq h2{
+        font-size: 30px;
+    }
+    .title-pq h1{
+        font-size: 45px;
+    }
+    .title-pq p{
+        margin-bottom: 15px;
+    }
     .check-pq{
         width: 95%;
     }
