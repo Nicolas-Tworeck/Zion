@@ -24,16 +24,18 @@ nav {
     position: fixed;
     width: 100%;
     border-bottom: 1px solid var(--blue);
-    background: var(--white);
+    background: var(--blue);
     box-shadow: 0 1px 5px var(--black);
     top: 0px;
     z-index: 1000;
+    padding: 10px 0;
 }
 
 .container-nav {
     display: grid;
     grid-template-columns: 20% 70% 10%;
     align-items: center;
+    background: var(--white);
 }
 
 .logo-nav {
@@ -89,7 +91,7 @@ nav {
 }
 
 .sociais-nav #whats:hover {
-    color: green;
+    color: var(--green);
 }
 
 .sociais-nav #insta:hover {
@@ -165,7 +167,7 @@ nav {
     transform: translateX(0);
     pointer-events: auto;
     /* Permite interação quando o menu estiver aberto */
-    box-shadow: -10px 0 100px var(--color-black);
+    box-shadow: -10px 0 100px var(--black);
     z-index: 150;
 
 }
@@ -179,4 +181,63 @@ nav {
     margin: 0 0 20px 0;
     display: flex;
     justify-content: center;
+}
+
+
+footer{
+    padding: 20px 0;
+    background: var(--blue);
+    box-shadow: 0 5px 20px var(--black);
+}
+.footer-container{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: var(--white);
+    border-radius: 2px;
+    box-shadow: 0 5px 20px var(--black);
+}
+
+.contato-footer{
+    padding: 5px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.contato-footer a{
+    margin: 2px 0 2px 10%;
+    font-size: 18px;
+    transition: 0.3s;
+    font-weight: bold;
+
+}
+.contato-footer a i{
+    transition: 0.3s;
+}
+.contato-footer a:hover{
+    transform: scale(1.1);
+    text-shadow: 0 1px 20px var(--black);
+    #whats{
+        color: var(--green);
+    }
+    #insta{
+        color: var(--purple);
+    }
+    #mail{
+        color: var(--blue);
+    }
+    #local{
+        color: var(--yellow);
+    }
+}
+.logo-footer{
+    padding: 5px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo-footer img{
+    width: 200px;
 }
