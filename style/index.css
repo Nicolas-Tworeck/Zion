@@ -124,18 +124,22 @@
 
 .title-pq h2 {
     font-size: 45px;
+    width: 100%;
 }
 
 .title-pq h1 {
     font-size: 60px;
     font-weight: bolder;
     text-decoration: underline 2px solid var(--blue);
+    text-align: start;
+    width: 100%;
 }
 
 .title-pq p {
     font-weight: bold;
-    text-align: justify;
-    width: 80%;
+    text-align: start;
+    width: 100%;
+    
 }
 
 .container-check {

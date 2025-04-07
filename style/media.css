@@ -1,8 +1,4 @@
-@media(max-width:1050px){
-    .container-title-pq h2{
-        text-align: center;
-    }
-}
+
 @media(max-width:930px) {
     .button-nav-container a {
         font-size: 12px;
@@ -41,6 +37,12 @@
     .maps-container{
         display: flex;
         flex-direction: column;
+    }
+    .container-title-pq{
+        width: 80%;
+    }
+    .title-pq p{
+        margin-bottom: 15px;
     }
 }
 
@@ -93,20 +95,27 @@
     .chamada-button-inicio a{
         font-size: 10px;
     }
-    
+    .container-title-pq{
+        width: 100%;
+    }
     .title-pq{
-        width: 70%;
+        width: 80%;
         text-align: center;
     }
     .title-pq h2{
         font-size: 30px;
+        text-align: start;
+        width: 100%;
     }
     .title-pq h1{
         font-size: 45px;
+        width: 100%;
+        text-align: start;
     }
     .title-pq p{
         margin-bottom: 15px;
         font-size: 10px;
+        width: 100%;
     }
     .check-pq{
         width: 95%;
