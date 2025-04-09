@@ -1,0 +1,31 @@
+.folder-contato{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container-folder-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.container-folder-contato h1{
+    font-size: 40px;
+    text-decoration: underline 2px solid var(--blue);
+}
+.container-folder-contato p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+@media(max-width: 730px){
+    .container-folder-contato{
+        width: 80%;
+    }
+    .container-folder-contato h1{
+        font-size: 30px;
+        text-align: start;
+        width: 100%;
+    }
+}

@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8" name="description">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="img/ZION-mini.png">
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/geral.css">
     <link rel="stylesheet" href="style/root.css">
@@ -26,10 +28,11 @@
                         <a>INDUSTRIAL</a>
                         <a>SERVIÇOS</a>
                         <a>MATERIAIS</a>
+                        <a onclick="contato()">CONTATO</a>
                     </div>
                 </div>
                 <div class="sociais-nav">
-                    <a class="contact-icon-nav" id="whats"><i class="bi bi-whatsapp"></i></a>
+                    <a onclick="whatsZion()" class="contact-icon-nav" id="whats"><i class="bi bi-whatsapp"></i></a>
                     <a class="contact-icon-nav" id="insta"><i class="bi bi-instagram"></i></a>
                     <div class="hamburguer-container">
                         <div class="hamburger">
@@ -45,6 +48,7 @@
                             <a>INDUSTRIAL</a>
                             <a>SERVIÇOS</a>
                             <a>MATERIAIS</a>
+                            <a onclick="contato()">CONTATO</a>
                         </div>
 
                     </div>
@@ -553,10 +557,10 @@
         <footer>
             <div class="footer-container">
                 <div class="contato-footer">
-                    <a><i id="whats" class="bi bi-whatsapp"></i> (42)xxxxx-xxxx</a>
+                    <a onclick="whatsZion()"><i id="whats" class="bi bi-whatsapp"></i> (42) 98444-0328</a>
                     <a><i id="insta" class="bi bi-instagram"></i> @Zion_insta</a>
-                    <a><i id="mail" class="bi bi-envelope"></i> email@dominio.com.br</a>
-                    <a onclick="localidade()"><i id="local" class="bi bi-geo-alt"></i>   R. Francisco Otaviano, 433</a>
+                    <a onclick="emailZion()"><i id="mail" class="bi bi-envelope"></i> at3@hotmail.com.br</a>
+                    <a onclick="localidade()"><i id="local" class="bi bi-geo-alt"></i> R. Francisco Otaviano, 433</a>
                 </div>
                 <div class="logo-footer">
                     <img src="img/ZION-larg-png.png" alt="">
@@ -572,4 +576,5 @@
 <script src="script/menu.js"></script>
 <script src="script/animation.js"></script>
 <script src="script/href.js"></script>
+
 </html>
