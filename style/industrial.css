@@ -7,7 +7,7 @@
 
 .industrial-folder {
     width: 50%;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .industrial-folder h1 {
@@ -28,7 +28,7 @@
     width: 80%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    margin: 50px 0;
+    margin: 50px 0 100px 0 ;
 }
 
 .produtos {
@@ -57,4 +57,20 @@
 .img-produto video {
     width: 95%;
     border-radius: 3px;
+}
+.number{
+    background: red;
+    width: 80%;
+}
+.number-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.number-indi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    background: blue;
 }

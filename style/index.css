@@ -148,51 +148,7 @@
 
 
 
-.number-container-pq {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 
-.number-pq {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    justify-content: center;
-    width: 80%;
-}
-
-.number-information-pq {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-right: 2px solid var(--black);
-    margin-bottom: 80px;
-}
-
-.number-container-pq i {
-    font-size: 40px;
-}
-
-.number-container-pq h2 {
-    font-size: 20px;
-    color: var(--blue);
-}
-
-.number-container-pq p {
-    width: 80%;
-    text-align: justify;
-}
-
-#number-final {
-    border: none;
-}
-
-.line-pq {
-    width: 80%;
-    padding: 5px;
-    border-top: 2px solid var(--black);
-    margin-top: 5%;
-}
 
 
 

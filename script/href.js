@@ -43,3 +43,6 @@ function inicio(){
 function industrial(){
     window.location.href = "industrial.html";
 }
+function servicos(){
+    window.location.href = "servicos.html";
+}
