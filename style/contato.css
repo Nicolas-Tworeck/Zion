@@ -163,9 +163,7 @@ i{
     .contato-dev-container{
         width: 80%;
     }
-    .contato-dev-container a{
-        font-size: 15px;
-    }
+    
 }
 @media(max-width: 650px){
     .contato-part-container{
@@ -182,5 +180,8 @@ i{
     }
     .contato-dev-container{
         width: 95%;
+    }
+    .contato-dev-container a{
+        font-size: 15px;
     }
 }
