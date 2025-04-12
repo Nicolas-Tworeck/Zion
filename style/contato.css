@@ -1,8 +1,9 @@
 .folder-contato{
     padding: 5px;
     display: flex;
-    justify-content: center;
+    align-items: center;
     margin-top: 50px;
+    flex-direction: column;
 }
 .container-folder-contato{
     display: flex;
@@ -18,7 +19,122 @@
     text-align: justify;
     margin-top: 10px;
 }
+.linha-contato{
+    border-bottom: 2px solid var(--blue);
+    margin-top: 50px;
+    width: 80%;
+}
+.contato{
+    margin-top: 50px;
+    padding: 50px 0;
+    background: var(--blue);
+}
+.contato-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.contato-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contato-cont{
+    display: flex;
+    flex-direction: column;
+}
+.contato-cont a{
+    font-size: 20px;
+    margin-top: 3px;
+    font-weight: bold;
+    transition: 0.3s;
+}
 
+i{
+    transition: 0.3s;
+    margin-right: 5px;
+}
+.contato-cont a:hover{
+    transform: scale(1.1);
+    #whats{
+        color: var(--green);
+    }
+    #insta{
+        color: var(--purple);
+    }
+    #mail{
+        color: var(--blue);
+    }
+    #local{
+        color: var(--yellow);
+    }
+}
+.contato-part-container{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px var(--black);
+    background: var(--white);
+}
+.contato-dev{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.contato-dev p{
+    width: 50%;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.contato-dev img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.contato-dev-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+.contato-dev-container a{
+    font-size: 20px;
+    transition: 0.3s;
+}
+.contato-dev-container a:hover{
+    transform: scale(1.1);
+    #whats{
+        color: var(--green);
+    }
+    #insta{
+        color: var(--purple);
+    }
+    #mail{
+        color: var(--blue);
+    }
+    #site{
+        color: var(--yellow);
+    }
+}
+.roda-pe-contato{
+    background: var(--blue);
+    padding: 10px 0;
+    box-shadow: 0 5px 20px var(--black);
+}
+.roda-container{
+    padding: 10px;
+    background: var(--white);
+    box-shadow: 0 5px 20px var(--black);
+}
+.linha-separa{
+    width: 80%;
+    border-bottom: 2px solid var(--blue);
+    margin-bottom: 10px;
+}
 @media(max-width: 730px){
     .container-folder-contato{
         width: 80%;
@@ -27,5 +143,44 @@
         font-size: 30px;
         text-align: start;
         width: 100%;
+    }
+}
+@media(max-width: 1185px){
+    .contato-part-container{
+        width: 80%;
+        margin: 10px 0;
+    }
+    .contato-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container-folder-contato{
+        width: 80%;
+    }
+    .contato-dev p{
+        width: 80%;
+    }
+    .contato-dev-container{
+        width: 80%;
+    }
+    .contato-dev-container a{
+        font-size: 15px;
+    }
+}
+@media(max-width: 650px){
+    .contato-part-container{
+        width: 95%;
+    }
+    .contato-cont a{
+        font-size: 15px;
+    }
+    .contato-title h1{
+        font-size: 25px;
+    }
+    .contato-cont h2{
+        font-size: 20px;
+    }
+    .contato-dev-container{
+        width: 95%;
     }
 }
