@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style/geral.css">
+    <link rel="stylesheet" href="style/root.css">
+    <link rel="stylesheet" href="style/block.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="style/industrial.css">
+    <title>INDUSTRIAL - ZION</title>
+</head>
+
+<body>
+    <form>
+        <nav>
+            <div class="container-nav">
+                <div class="logo-nav">
+                    <img src="img/ZION-larg-png.png" alt="">
+                </div>
+                <div class="button-nav">
+                    <div class="button-nav-container">
+                        <a onclick="inicio()">INÍCIO</a>
+                        <a id="active-button">INDUSTRIAL</a>
+                        <a>SERVIÇOS</a>
+                        <a>MATERIAIS</a>
+                        <a onclick="contato()">CONTATO</a>
+                    </div>
+                </div>
+                <div class="sociais-nav">
+                    <a onclick="whatsZion()" class="contact-icon-nav" id="whats"><i class="bi bi-whatsapp"></i></a>
+                    <a onclick="instaZion()" class="contact-icon-nav" id="insta"><i class="bi bi-instagram"></i></a>
+                    <div class="hamburguer-container">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="menu-mobile">
+                        <div class="button-menu">
+                            <a onclick="inicio()">INÍCIO</a>
+                            <a id="active-button">INDUSTRIAL</a>
+                            <a>SERVIÇOS</a>
+                            <a>MATERIAIS</a>
+                            <a onclick="contato()">CONTATO</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <div class="nav">
+            <div class="logo-nav">
+                <img src="img/ZION-larg-png.png" alt="">
+            </div>
+
+        </div>
+
+
+        <div class="industrial">
+            <div class="industrial-folder">
+                <h1>NOSSOS PRODUTOS</h1>
+                <p>Os produtos de impressão da Zion representam o que há de mais avançado em qualidade e excelência.
+                    Utilizamos apenas materiais premium e ferramentas de precisão para garantir resultados superiores em
+                    cada detalhe.</p>
+            </div>
+          
+            <div class="industrial-container">
+                <div class="produto-container">
+                    <div class="produtos">
+                        <div class="img-produto">
+                            <video id="video1" controls>
+                                <source src="produtos/engrenagem.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="description-produto">
+                            <label>Engrenagens</label>
+                        </div>
+                    </div>
+                </div>
+               
+                
+            
+          
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="footer-container">
+                <div class="contato-footer">
+                    <a onclick="whatsZion()"><i id="whats" class="bi bi-whatsapp"></i> (42) 98444-0328</a>
+                    <a onclick="instaZion()"><i id="insta" class="bi bi-instagram"></i> @Zion_insta</a>
+                    <a onclick="emailZion()"><i id="mail" class="bi bi-envelope"></i> at3@hotmail.com.br</a>
+                    <a onclick="localidade()"><i id="local" class="bi bi-geo-alt"></i> R. Francisco Otaviano, 433</a>
+                </div>
+                <div class="logo-footer">
+                    <img src="img/ZION-larg-png.png" alt="">
+                </div>
+            </div>
+            <div class="dev">
+                <a onclick="siteDev()"><img src="img/folder.svg" alt=""></a>
+            </div>
+        </footer>
+    </form>
+</body>
+<script src="script/href.js"></script>
+<script src="script/menu.js"></script>
+
+</html>

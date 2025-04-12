@@ -1,0 +1,60 @@
+.industrial {
+    background: linear-gradient(180deg, rgba(18, 149, 194, 1) 0%, rgba(163, 214, 231, 1) 10%, rgba(255, 255, 255, 1) 26%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 75%, rgba(163, 214, 231, 1) 90%, rgba(18, 149, 194, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.industrial-folder {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.industrial-folder h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.industrial-folder p {
+    width: 100%;
+    text-align: justify;
+    border-bottom: 2px solid var(--blue);
+    border-top: 2px solid var(--blue);
+    margin-bottom: 20px;
+}
+
+.industrial-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 50px 0;
+}
+
+.produtos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    padding: 5px 0;
+    transition: 0.3s;
+    border: 2px solid transparent;
+}
+.produtos:hover{
+    border:  2px solid var(--blue);
+}
+
+.produto-container {
+    padding: 5px;
+}
+
+.img-produto {
+    display: flex;
+    justify-content: center;
+}
+
+.img-produto video {
+    width: 95%;
+    border-radius: 3px;
+}

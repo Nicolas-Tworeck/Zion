@@ -40,3 +40,6 @@ function contato(){
 function inicio(){
     window.location.href = "index.html";
 }
+function industrial(){
+    window.location.href = "industrial.html";
+}
