@@ -28,7 +28,7 @@
     width: 80%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    margin: 50px 0 100px 0 ;
+    margin: 50px 0 100px 0;
 }
 
 .produtos {
@@ -41,8 +41,9 @@
     transition: 0.3s;
     border: 2px solid transparent;
 }
-.produtos:hover{
-    border:  2px solid var(--blue);
+
+.produtos:hover {
+    border: 2px solid var(--blue);
 }
 
 .produto-container {
@@ -58,19 +59,125 @@
     width: 95%;
     border-radius: 3px;
 }
-.number{
-    background: red;
+
+.number {
     width: 80%;
 }
-.number-container{
+
+.number-container {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
-.number-indi{
+
+.number-indi {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify;
     padding: 10px;
-    background: blue;
+}
+
+.areas-de-industria {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.areas-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.area-container2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.back-container{
+    width: 100%;
+    display: flex;
+    background: var(--blue);
+    justify-content: center;
+}
+.area-container3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-area {
+    width: 90%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 3px;
+    border: 2px solid var(--blue);
+}
+
+.image-area img {
+    width: 100%;
+}
+
+.text-area {
+    width: 90%;
+}
+
+.text-area p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.text-area h1 {
+    text-decoration: underline 2px solid var(--blue);
+}
+
+@media(max-width: 730px) {
+    .areas-container {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    .back-container{
+        padding: 20px 0;
+        margin: 10px 0;
+    }
+    .area-container2{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 95%;
+    }
+    .text-area p{
+        font-size: 10px;
+    }
+    .text-container{
+        width: 99%;
+    }
+    .area-container3{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    .industrial-folder{
+        width: 80%;
+    }
+    .industrial-folder p{
+        font-size: 10px;
+    }
 }
