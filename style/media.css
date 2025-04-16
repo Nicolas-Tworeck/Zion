@@ -20,6 +20,8 @@
 
     .video-inicio {
         margin-top: 5%;
+        display: flex;
+        justify-content: center;
     }
    
     .zion-pq-container{
@@ -43,6 +45,9 @@
     }
     .title-pq p{
         margin-bottom: 15px;
+    }
+    .video-inicio video{
+        width: 60%;
     }
 }
 
@@ -89,7 +94,7 @@
         font-size: 10px;
     }
     .video-inicio video{
-        width: 250px;
+        width: 100%;
     }
     .chamada-button-inicio {
         margin-top: 10%;
