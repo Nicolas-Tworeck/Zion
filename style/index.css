@@ -252,3 +252,49 @@ svg#svg-map {
     fill: #7ac2da;
 }
 /*Mapa*/
+
+.func{
+    background: var(--blue);
+    box-shadow: 0 5px 20px var(--black);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.func-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    width: 100%;
+    row-gap: 20px;
+}
+.func-indi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    
+}
+.func-indi-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px var(--black);
+}
+.title-func{
+    border-bottom: 2px solid var(--blue);
+}
+.title-func h1{
+    font-size: 25px;
+}
+.func-text{
+    display: flex;
+    text-align: justify;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.func-text ul{
+    margin-top: 10px;
+}
