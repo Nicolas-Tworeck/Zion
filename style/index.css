@@ -1,7 +1,7 @@
-
-.back-total-ini{
-    background:linear-gradient(197deg, rgba(18,149,194,1) 0%, rgba(120,194,220,1) 25%, rgba(255,255,255,1) 38%, rgba(255,255,255,1) 65%, rgba(106,188,217,1) 80%, rgba(18,149,194,1) 100%) ;
+.back-total-ini {
+    background: linear-gradient(197deg, rgba(18, 149, 194, 1) 0%, rgba(120, 194, 220, 1) 25%, rgba(255, 255, 255, 1) 38%, rgba(255, 255, 255, 1) 65%, rgba(106, 188, 217, 1) 80%, rgba(18, 149, 194, 1) 100%);
 }
+
 .inicio {
     padding: 5px;
     height: 450px;
@@ -85,7 +85,7 @@
 .zion-pq {
     padding: 5px;
     display: flex;
-  background-size: cover;
+    background-size: cover;
     background-position: center center;
     align-items: center;
     flex-direction: column;
@@ -128,7 +128,7 @@
     font-weight: bold;
     text-align: start;
     width: 100%;
-    
+
 }
 
 .container-check {
@@ -138,7 +138,8 @@
     text-align: justify;
     align-items: center;
 }
-.container-check p{
+
+.container-check p {
     width: 80%;
     font-size: 18px;
     margin-bottom: 15px;
@@ -152,50 +153,58 @@
 
 
 
-.maps{
+.maps {
     padding: 50px 0;
-   display: flex;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
 }
-.maps-container{
+
+.maps-container {
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
 }
-.mapa{
+
+.mapa {
     display: flex;
     justify-content: center;
 
 }
-.text-mapa{
+
+.text-mapa {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.title-text-maps{
+
+.title-text-maps {
     display: flex;
     justify-content: start;
     width: 80%;
     border-bottom: 2px solid var(--blue);
     color: var(--black);
 }
-.paragrafo-text-maps{
+
+.paragrafo-text-maps {
     text-align: justify;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.paragrafo-text-maps p{
+
+.paragrafo-text-maps p {
     margin-top: 15px;
     font-size: 18px;
     width: 80%;
 }
-.button-local{
+
+.button-local {
     width: 80%;
     margin-top: 10px;
 }
-.button-local a{
+
+.button-local a {
     border: 2px solid var(--white);
     padding: 5px;
     font-size: 20px;
@@ -204,12 +213,14 @@
     color: var(--white);
     transition: 0.3s;
 }
-.button-local a:hover{
+
+.button-local a:hover {
     transform: scale(1.05);
     box-shadow: 0 2px 5px var(--black);
     background: var(--white);
     color: var(--blue);
 }
+
 /*mapa*/
 svg#svg-map {
     max-width: 100%;
@@ -227,7 +238,8 @@ svg#svg-map {
     transition: 0.5s;
     cursor: pointer;
 }
-#svg-map #parana{
+
+#svg-map #parana {
     cursor: pointer;
 }
 
@@ -244,37 +256,42 @@ svg#svg-map {
     text-decoration: none;
     cursor: default;
 }
-#svg-map a text{
+
+#svg-map a text {
     cursor: default;
 }
 
-#svg-map path.parana:hover{
+#svg-map path.parana:hover {
     fill: #7ac2da;
 }
+
 /*Mapa*/
 
-.func{
+.func {
     background: var(--blue);
     box-shadow: 0 5px 20px var(--black);
     display: flex;
     justify-content: center;
     padding: 20px;
 }
-.func-container{
+
+.func-container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     justify-content: center;
     width: 100%;
     row-gap: 20px;
 }
-.func-indi{
+
+.func-indi {
     width: 100%;
     display: flex;
     justify-content: center;
     height: 300px;
-    
+
 }
-.func-indi-container{
+
+.func-indi-container {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -283,18 +300,47 @@ svg#svg-map {
     border-radius: 3px;
     box-shadow: 0 5px 20px var(--black);
 }
-.title-func{
+
+.title-func {
     border-bottom: 2px solid var(--blue);
 }
-.title-func h1{
+
+.title-func h1 {
     font-size: 25px;
 }
-.func-text{
+
+.func-text {
     display: flex;
     text-align: justify;
     margin-top: 20px;
     flex-direction: column;
 }
-.func-text ul{
+
+.func-text ul {
     margin-top: 10px;
+}
+
+.produto-video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(18, 149, 194, 1) 0%, rgba(204, 232, 242, 1) 30%, rgba(255, 255, 255, 1) 50%, rgba(174, 219, 234, 1) 70%, rgba(18, 149, 194, 1) 100%);
+}
+
+.produto-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 50%;
+}
+
+.video-produto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.video-produto video {
+    width: 200px;
+    box-shadow: 0 5px 20px var(--black);
 }
