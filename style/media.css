@@ -1,3 +1,9 @@
+@media(max-width:1200px){
+    .func-container{
+       grid-template-columns: 50% 50%;
+    }
+    
+}
 
 @media(max-width:930px) {
     .button-nav-container a {
@@ -49,6 +55,12 @@
     .video-inicio video{
         width: 60%;
     }
+    .func{
+        display: none;
+    }
+    .func-cell{
+        display: block;
+    }
 }
 
 @media(max-width: 730px) {
@@ -83,7 +95,9 @@
     #number-right{
         border: none;
     }
-   
+   .title-func h1{
+    font-size: 20px;
+   }
 }
 @media(max-width:650px){
  
@@ -159,5 +173,11 @@
    .logo-footer{
     border-bottom: 2px solid var(--blue);
    } 
+   .func-indi-container-cell{
+    width: 100%;
+   }
+   .func-text p, li{
+    font-size:13px;
+   }
 }
 
