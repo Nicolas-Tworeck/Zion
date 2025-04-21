@@ -346,6 +346,8 @@ svg#svg-map {
 }
 .func-cell{
     display: none;
+    background: var(--blue);
+    box-shadow: 0 5px 20px var(--black);
 }
 .slider {
     position: relative;
