@@ -405,4 +405,6 @@ svg#svg-map {
     /* Garante que a imagem ocupe toda a largura do slide */
     display: block;
 }
-
+.video-cell{
+    display: none;
+}
