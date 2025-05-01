@@ -46,3 +46,7 @@ function industrial(){
 function servicos(){
     window.location.href = "servicos.html";
 }
+
+function exemplos(){
+    window.location.href = "#videos-exemplo";
+}
