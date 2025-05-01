@@ -408,3 +408,45 @@ svg#svg-map {
 .video-cell{
     display: none;
 }
+.restricao-cliente{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--blue);
+}
+.clientes{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cliente-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-cliente h1{
+    color: var(--white);
+}
+.title-cliente{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px 0;
+    border-bottom:  2px solid var(--white);
+}
+.img-cliente{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-items: center;
+    margin-bottom: 80px;
+    row-gap: 20px;
+}
+.img-cliente img{
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid var(--blue);
+}
+

@@ -6,6 +6,9 @@
 }
 
 @media(max-width:930px) {
+    .img-cliente{
+        grid-template-columns: 25% 25% 25% 25%;
+    }
     .button-nav-container a {
         font-size: 12px;
     }
@@ -76,7 +79,10 @@
 
 @media(max-width: 730px) {
     
-   
+   .img-cliente{
+    grid-template-columns: 33% 33% 33%;
+
+   }
     .button-nav-container {
         display: none;
     }
@@ -111,7 +117,10 @@
    }
 }
 @media(max-width:650px){
- 
+ .img-cliente{
+    width: 100%;
+    grid-template-columns: 50% 50%;
+ }
     .title-inicio h1{
         font-size: 30px;
     }

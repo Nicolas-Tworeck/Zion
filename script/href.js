@@ -18,7 +18,7 @@ function eliezer(){
     window.location.href = "https://api.whatsapp.com/send?phone=554298690111&text=Ol%C3%A1%2C%20Eliezer%21%20Tudo%20bem%3F%20Encontrei%20a%20Zion%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20um%20projeto%20de%20impress%C3%A3o.%20Podemos%20conversar%20sobre%20os%20detalhes%3F";
 }
 function instaZion(){
-    window.location.href = "https://www.instagram.com/zion.3d.industrial/?utm_source=ig_web_button_share_sheet";
+    window.location.href = "https://www.instagram.com/zion.impressao.3d/?utm_source=ig_web_button_share_sheet";
 }
 
 function siteDev(){
