@@ -7,7 +7,7 @@ function whatsZion(){
 }
 
 function emailZion(){
-    window.location.href = "mailto:at3@hotmail.com.br";
+    window.location.href = "mailto:contato@zion3d.com.br";
 }
 
 function bispo(){
